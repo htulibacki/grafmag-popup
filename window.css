@@ -62,3 +62,8 @@
     width: 640px;
     height: 500px;
 }
+
+body:after {
+    display:none;
+    content: url(image/on-50p-scroll.jpg) url(image/on-entrance.jpg) url(image/on-entrance-timeout.jpg) url(image/on-entrance-timeout-once.jpg) url(image/on-entrance-timeout-on-three.jpg) url(image/on-exit.jpg) url(image/on-second-post-scroll.jpg);
+}
